@@ -12,11 +12,11 @@ import javax.persistence.Id;
 public class Utilisateur {
 
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long Id;
+	private Long id_utilisateur;
 	private String login;
 	private String mdp;
 	private String prenom;
 	private String nomUsuel;
 	private String mail;
-	
+	private String tpye; //Gestionnaire, responsable, vacataire
 }

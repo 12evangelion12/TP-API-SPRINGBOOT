@@ -56,7 +56,7 @@ public class UtilisateurServiceImpl implements UtilisateurService {
      */
     private UtilisateurDto utilisateurEntityToDto(Utilisateur utilisateur){
         UtilisateurDto utilisateurDto = new UtilisateurDto();
-        utilisateurDto.setId(utilisateur.getId());
+        utilisateurDto.setId(utilisateur.getId_utilisateur());
         utilisateurDto.setLogin(utilisateur.getLogin());
         utilisateurDto.setMdp(utilisateur.getMdp());
         utilisateurDto.setPrenom(utilisateur.getPrenom());
@@ -71,7 +71,7 @@ public class UtilisateurServiceImpl implements UtilisateurService {
     private Utilisateur utilisateurDtoToEntity(UtilisateurDto utilisateurDto){
         Utilisateur utilisateur = new Utilisateur();
 
-        utilisateur.setId(utilisateurDto.getId());
+        utilisateur.setId_utilisateur(utilisateurDto.getId());
         utilisateur.setLogin(utilisateurDto.getLogin());
         utilisateur.setMdp(utilisateurDto.getMdp());
         utilisateur.setPrenom(utilisateurDto.getPrenom());

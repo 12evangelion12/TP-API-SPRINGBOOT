@@ -1,5 +1,9 @@
 #TP-API-SPRINGBOOT
 
+!!! IMPORTANT !!!
+Les données de la base de données sont a modifier
+Dans le cadre du TP j'ai réalisé les tests avec une base de donnée sql en locale
+
 # Objectifs des 6 heures
 
 Nous allons tenter de devenir autonome sur l’utilisation du framework Spring Boot. Aujourd’hui il est beaucoup utilisé pour la création de services. Voici les notions à savoir à la fin des 6H:
